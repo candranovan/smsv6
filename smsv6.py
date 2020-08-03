@@ -29,7 +29,11 @@ def mapclub():
     if "ok" in r:
         print ("SUCCES MENGIRIM PESAN KE",no)
     else:
-        print ("GAGAL MENGIRIM PESAN:(")
+        print ("[!] GAGAL MENGIRIM PESAN:(")
+        time.sleep(4)
+        print ("[!] GAGAL MENGIRIM PESAN:(")
+        time.sleep(4) 
+        print ("[!] GAGAL MENGIRIM PESAN:(\n\n")
         sys.exit()
 os.system("clear")
 time.sleep(1)
